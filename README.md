@@ -5,17 +5,21 @@ New computers with intel Optane + Insyde Bios,
 cannot clean install any other OS, other than W10,
 
 The Reasons:
+
 A) intel Optane does Not have drivers for other OS,
 Optane is like a CPU HW Raid.
-without Drivers other OS cannot detect the main SSD or M.2 drive.
+without intel Drivers other OS cannot detect the main M.2 NVMe drive.
 
 B) Insyde Bios has a Secret / Hidden Menu, 
-that does Not allow to Dissable SATA Optane.
+does Not allow to Dissable SATA Optane.
 
-The Sollution is to press Ctrl+S in Advanced,
-The hidden SATA menu will appear like magic.
+The Sollution:
+press Ctrl+S in Advanced,
+The hidden SATA menu will appear like Magic.
 and you can select Normal AHCI.
-With AHCI bios mode is possible to install any other OS: Linux, Windows8.1 "my favorite Windows", etc...
+With AHCI UEFI is possible to install any other OS: 
+
+Linux, Windows8.1 "my favorite Windows", etc...
 
 the other problem is Touchpad drivers, Bluetooth , Wifi, Ethernet, etc...
 
