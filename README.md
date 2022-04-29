@@ -9,8 +9,11 @@ The Reasons:
 A) intel Optane does Not have F6 drivers for other OS,
 Optane is like a CPU HW Raid, 
 without Drivers other OS cannot detect the Optane RAID M.2 drive.
-Normal Optane appear as separated NVMe M.2 drive, and CPU join both drives.
-This Bios disables completely the Optane memory, the question is why?
+Normal Optane appears as separated NVMe M.2 drive, and CPU join both drives,
+bu this is Not a Normal Optane, Bios disables completely the Optane memory, 
+also in Normal Optane, when you dissable the Optane, MAin drive Boots ok.
+This does Not.
+the question is why?
 
 B) InsydeH2O Bios has a Secret / Hidden Menu, 
 does Not allow to Dissable Intel Optane by Factory Default.
