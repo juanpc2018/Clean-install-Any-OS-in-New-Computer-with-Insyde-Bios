@@ -82,5 +82,4 @@ but i almost got an aneurysm in the process.
 and got banned in the answers.microsoft.com website too.
 
 But Hardware is Jail Free.
-Nobody is twisting my arm, anymore.
-i can install what ever OS i want.
+Nobody is twisting my arm, i can install what ever OS i want.
