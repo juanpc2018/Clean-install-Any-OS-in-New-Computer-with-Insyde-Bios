@@ -8,38 +8,40 @@ The Reasons:
 
 A) intel Optane does Not have F6 drivers for other OS,
 Optane is like a CPU HW Raid, 
-without Drivers other OS cannot detect the main M.2 NVMe drive.
+without Drivers other OS cannot detect the Optane RAID M.2 drive.
+Normal Optane appear as separated NVMe M.2 drive, and CPU join both drives.
+This Bios disables completely the Optane memory, the question is why?
 
 B) InsydeH2O Bios has a Secret / Hidden Menu, 
-does Not allow to Dissable Intel Optane.
+does Not allow to Dissable Intel Optane by Factory Default.
 
 The Solution:
-Enter the UEFI Bios by pressing [F2] in Boot,
+Enter UEFI Bios by pressing [F2] in Boot,
 or in Advanced Windows Starttup, UEFI configuration option.
 inside the UEFI go to [Advanced] Tab,
 and press Ctrl+S
 
 The hidden SATA menu will appear like Magic.
 and you can select Normal [AHCI] or [Intel RST with Optane]
-With AHCI UEFI is possible to install any other OS: 
+With AHCI UEFI Active is possible to install any other OS: 
 
 Linux, Windows8.1 "my favorite Windows", etc...
 
-the other problem is Touchpad drivers, Bluetooth, Wifi, Ethernet, etc...
+the other problem is Drivers for Touchpad, Bluetooth, Wifi, Ethernet, etc...
 
 Newer computers with Insyde Bios, some have "Fake" RAM,
 you buy 8GB,
 remove the screws and surprice, has 1x 4GB RAM stick,
-maybe sticker is labeled Wrong?
+maybe sticker has label Wrong?
 but if sticker is right, and has only 4GB of RAM,
 where are the other 4GB? Winmdows10 say it has 8GB of RAM,
-BUT... 4GB are always busy doing Nothing in W10 & W11...
-That was one of the reasons i decided to upgrade W10 to W11, and then Delete W11.
-in W8.1 shows 8GB of RAM also, mystery...
+BUT... 4GB are always busy doing Nothing in W10 & W11, Dr.strange..
+That was one of the reasons i decided to upgrade W10 to W11, and Delete W11.
+in W8.1 also shows 8GB of RAM, mmm mystery...
 but memory usage is normal: 0.8 GB
 Now i can install AMD DataRam Ramdisk RamDrive for Temp folder.
 
-using CPU-Z shows 1x stick of 4GB.
+CPU-Z shows 1x stick of 4GB.
 where are the other 4GB ?
 unknwonw.
 maybe...
