@@ -6,18 +6,18 @@ cannot clean install any other OS, other than W10,
 
 The Reasons:
 
-A) intel Optane does Not have drivers for other OS,
-Optane is like a CPU HW Raid.
+A) intel Optane does Not have F6 drivers for other OS,
+Optane is like a CPU HW Raid, 
 without Drivers other OS cannot detect the main M.2 NVMe drive.
 
-B) Insyde Bios has a Secret / Hidden Menu, 
+B) InsydeH2O Bios has a Secret / Hidden Menu, 
 does Not allow to Dissable Intel Optane.
 
 The Solution:
-Enter the BIOS UEFI by pressing [F2] in Boot,
+Enter the UEFI Bios by pressing [F2] in Boot,
 or in Advanced Windows Starttup, UEFI configuration option.
-inside the UEFI, go to [Advanced] Tab,
-press Ctrl+S
+inside the UEFI go to [Advanced] Tab,
+and press Ctrl+S
 
 The hidden SATA menu will appear like Magic.
 and you can select Normal [AHCI] or [Intel RST with Optane]
