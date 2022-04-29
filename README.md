@@ -8,12 +8,12 @@ The Reasons:
 
 A) intel Optane does Not have drivers for other OS,
 Optane is like a CPU HW Raid.
-without intel Drivers other OS cannot detect the main M.2 NVMe drive.
+without Drivers other OS cannot detect the main M.2 NVMe drive.
 
 B) Insyde Bios has a Secret / Hidden Menu, 
 does Not allow to Dissable SATA Optane.
 
-The Sollution:
+The Solution:
 Enter BIOS UEFI pressing F2 in Boot,
 or in Advanced Windows Starttup, UEFI config option.
 inside the UEFI, go to Advanced,
