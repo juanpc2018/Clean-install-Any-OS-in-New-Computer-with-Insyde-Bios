@@ -2,15 +2,15 @@
 Secret / Hidden Cltr+S SATA Menu
 
 New computers with intel Optane + Insyde Bios,
-cannot clean install any other OS, other than W10,
+cannot clean install other OS, Only W10.
 
 The Reasons:
 
 A) intel Optane does Not have F6 drivers for other OS,
-Optane is like a CPU HW Raid, 
-without Drivers other OS cannot detect the Optane RAID M.2 drive.
+Optane is a CPU HW Raid, 
+without Drivers, other OS cannot detect the Optane RAID M.2 drive.
 Normal Optane appears as separated NVMe M.2 drive, and CPU join both drives,
-bu this is Not a Normal Optane, Bios disables completely the Optane memory, 
+but this is Not a Normal Optane, Bios disables completely the Optane memory, 
 also in Normal Optane, when you dissable the Optane, MAin drive Boots ok.
 This does Not.
 the question is why?
