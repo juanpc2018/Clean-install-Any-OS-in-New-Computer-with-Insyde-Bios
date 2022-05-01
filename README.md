@@ -82,23 +82,21 @@ thats why it has a Secret Hidden Menu.
 
 With Optane Disabled, 
 Windows8.1x64 with Bing installs, but needs Updates and Drivers.
-
-A System Image Restore cannot be done with [Intel RSP with Optane] Active in the Bios.
+A Win8.1 System Image Restore cannot be done with [Intel RSP with Optane] Active in the Bios.
 
 Windows10 OEM license cannot be Downgraded to 8.1,
 works up W11, but Not Down to W8.1
 Only Full Retail license can be Downgraded.
 
-To install i deleted the large partition only, 
+To install Win8.1 i deleted the large partition only, 
 Not the Smaller, Not the Recovery...
 and made a System image Backup Before, to an external USB3.0 drive of W11,
 Before Deleting W11 large partition in the factory M.2 drive.
 
-but then decided to install Linux, and deleted the whole M.2 drive.
+but then decided to install Linux and deleted the whole M.2 drive.
 
 IT WORKS !!!
 but i almost got an aneurysm,
 also got banned in the answers.microsoft.com website too.
-
 But Hardware is Jail Free.
 Nobody is twisting my arm anymore, i can install what ever OS i want.
