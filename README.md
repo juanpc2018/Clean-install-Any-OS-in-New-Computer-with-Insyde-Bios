@@ -80,6 +80,10 @@ $ sudo lshw -short
 
 /0/d/1                               memory         4GiB SODIMM DDR4 Synchronous 2667 MHz (0,4 ns)
 
+the slow is the soldered.
+and requires intel wi-fi drivers.
+https://www.intel.com/content/www/us/en/support/articles/000005511/wireless.html
+
 
 Anyway... 
 If you do Not Activate the Secret SATA Menu in the Bios,
