@@ -9,44 +9,48 @@ The Reasons:
 A) intel Optane does Not have F6 drivers for other OS,
 Optane is a CPU HW Raid, 
 without Drivers, other OS cannot detect the Optane RAID M.2 drive.
+
 Normal Optane appears as separated NVMe M.2 drive, and CPU join both drives,
-but this is Not a Normal Optane, Bios disables completely the Optane memory, 
-also in Normal Optane, when you dissable the Optane, MAin drive Boots ok.
-This does Not.
+but this is Not Normal Optane, Bios disables completely the Optane memory, 
+also in Normal Optane, when disable Optane, Main drive Boots ok.
+This Optane Not.
 the question is why?
 
 B) InsydeH2O Bios has a Secret / Hidden Menu, 
-does Not allow to Dissable Intel Optane by Factory Default.
+does Not allow to Disable Intel Optane.
 
 The Solution:
 Enter UEFI Bios by pressing [F2] in Boot,
-or in Advanced Windows Starttup, UEFI configuration option.
+or in Advanced Windows Startup, UEFI configuration option.
 inside the UEFI go to [Advanced] Tab,
 and press Ctrl+S
 
 The hidden SATA menu will appear like Magic.
-and you can select Normal [AHCI] or [Intel RST with Optane]
+and you can select between Normal [AHCI] or [Intel RST with Optane]
 With AHCI UEFI Active is possible to install any other OS: 
+M.2 or SSD is detected Normal.
 
-Linux, Windows8.1 "my favorite Windows", etc...
+in AHCI is possible to install Linux, Windows8.1 "my favorite Windows", etc...
 
-the other problem is Drivers for Touchpad, Bluetooth, Wifi, Ethernet, etc...
+other problem is Drivers for Touchpad, Bluetooth, Wifi, Ethernet, etc...
+Linux Kernet 5 has most drivers built-in.
 
 Newer computers with Insyde Bios, some have "Fake" RAM,
-you buy 8GB,
-remove the screws and surprice, has 1x 4GB RAM stick,
+example: you buy 8GB,
+remove the screws and surprise, has 1x 4GB RAM stick,
 maybe sticker has label Wrong?
 but if sticker is right, and has only 4GB of RAM,
-where are the other 4GB? Winmdows10 say it has 8GB of RAM,
-BUT... 4GB are always busy doing Nothing in W10 & W11, Dr.strange..
+where are the other 4GB? Winmdows10 say it has 8GB of RAM, same as W11
+BUT... 4GB are always busy doing Nothing, Very strange.
+
 That was one of the reasons i decided to upgrade W10 to W11, and Delete W11.
-in W8.1 also shows 8GB of RAM, mmm mystery...
+in W8.1 also shows 8GB of RAM, a mystery...
 but memory usage is normal: 0.8 GB
 Now i can install AMD DataRam Ramdisk RamDrive for Temp folder.
 
 CPU-Z shows 1x stick of 4GB.
 where are the other 4GB ?
-unknwonw.
+unknown.
 maybe...
 Insyde UEFI Bios seems to borrow 4GB of NVMe to fake 8GB of RAM, 
 Kingston 256GB M.2 shows 237GB Total, 221GB Free after Win8.1 Clean install.
@@ -60,9 +64,14 @@ or has another 4GB soldered on the other side of the PCB?
 it´s Weird "Fake" RAM, "Fake" Optane.
 or "Virtual" RAM, "Virtual" Optane.
 
-Real RAM is 4GB, some may call Fake Advertisement.
+Real RAM is 4GB, some may call 8GB Fake Advertisement.
 Seems the other 4GB appears out of thin air.
 i dont know where they are, unless i do a complte ifixit teardown to see the other side of the board.
+in the mean time i have 2 theories:
+RAM is slowed, and split with interrupts, like Cores into Threads.
+or RAM is .zip .rar .7zip by Insyde Bios or CPU Memory controller.
+if there is Not 4GB of Ram soldered to the other side of the PCB.
+easy to know, if i remove the 4GB stick, it should boot ok, if has 4GB soldered somewhere.
 
 Anyway... 
 If you do Not Activate the Secret SATA Menu in the Bios,
@@ -71,20 +80,25 @@ they want you to use Windows10,
 like twisting your arm in Karate, TaeKwonDo, Judo, Jujitsu, etc...
 thats why it has a Secret Hidden Menu.
 
-Anwyway...
+With Optane Disabled, 
 Windows8.1x64 with Bing installs, but needs Updates and Drivers.
 
 A System Image Restore cannot be done with [Intel RSP with Optane] Active in the Bios.
 
+Windows10 OEM license cannot be Downgraded to 8.1,
+works up W11, but Not Down to W8.1
+Only Full Retail license can be Downgraded.
 
 To install i deleted the large partition only, 
 Not the Smaller, Not the Recovery...
-and made a System image Backup Before, to an external USB3.0 drive.
-Before Deleting the large partition in the factory M.2 drive.
+and made a System image Backup Before, to an external USB3.0 drive of W11,
+Before Deleting W11 large partition in the factory M.2 drive.
 
-Now IT WORKS !!!
-but i almost got an aneurysm in the process.
-and got banned in the answers.microsoft.com website too.
+but then decided to install Linux, and deleted the whole M.2 drive.
+
+IT WORKS !!!
+but i almost got an aneurysm,
+also got banned in the answers.microsoft.com website too.
 
 But Hardware is Jail Free.
-Nobody is twisting my arm, i can install what ever OS i want.
+Nobody is twisting my arm anymore, i can install what ever OS i want.
