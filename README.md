@@ -52,7 +52,7 @@ CPU-Z shows 1x stick of 4GB.
 where are the other 4GB ?
 unknown.
 maybe...
-Insyde UEFI Bios seems to borrow 4GB of NVMe to fake 8GB of RAM, 
+Insyde UEFI Bios seems to borrow 4GB of NVMe to fake 8GB of RAM,?
 Kingston 256GB M.2 shows 237GB Total, 221GB Free after Win8.1 Clean install.
 has a 1GB Recovery Partition "1024MB".
 
@@ -61,17 +61,22 @@ Disk Manager shows: 238.46 GB Online.
 
 or has another 4GB soldered on the other side of the PCB?
 
-it´s Weird "Fake" RAM, "Fake" Optane.
-or "Virtual" RAM, "Virtual" Optane.
+it´s Weird.
 
-Real RAM is 4GB, some may call 8GB Fake Advertisement.
-Seems the other 4GB appears out of thin air.
-i dont know where they are, unless i do a complte ifixit teardown to see the other side of the board.
+Real RAM 1x4GB,
+the other 4GB appears out of thin air.
+i dont know where they are, unless i do a complete ifixit teardown to see the other side of the board.
 in the mean time i have 2 theories:
 RAM is slowed, and split with interrupts, like Cores into Threads.
-or RAM is .zip .rar .7zip by Insyde Bios or CPU Memory controller.
+or RAM is .zip .rar .7zip in HW by Insyde Bios or CPU Memory controller.
 if there is Not 4GB of Ram soldered to the other side of the PCB.
 easy to know, if i remove the 4GB stick, it should boot ok, if has 4GB soldered somewhere.
+or
+$ sudo lshw -short
+/0/d                                 memory         8GiB System Memory
+/0/d/0                               memory         4GiB SODIMM DDR4 Synchronous 3200 MHz (0,3 ns)
+/0/d/1                               memory         4GiB SODIMM DDR4 Synchronous 2667 MHz (0,4 ns)
+
 
 Anyway... 
 If you do Not Activate the Secret SATA Menu in the Bios,
