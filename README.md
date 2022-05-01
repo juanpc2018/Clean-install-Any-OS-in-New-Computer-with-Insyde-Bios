@@ -71,10 +71,13 @@ RAM is slowed, and split with interrupts, like Cores into Threads.
 or RAM is .zip .rar .7zip in HW by Insyde Bios or CPU Memory controller.
 if there is Not 4GB of Ram soldered to the other side of the PCB.
 easy to know, if i remove the 4GB stick, it should boot ok, if has 4GB soldered somewhere.
-or
+
 $ sudo lshw -short
+
 /0/d                                 memory         8GiB System Memory
+
 /0/d/0                               memory         4GiB SODIMM DDR4 Synchronous 3200 MHz (0,3 ns)
+
 /0/d/1                               memory         4GiB SODIMM DDR4 Synchronous 2667 MHz (0,4 ns)
 
 
